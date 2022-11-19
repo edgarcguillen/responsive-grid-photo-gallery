@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* display: block; */
+    font-size: 16px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(27, 79, 158, 0.356);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 10px 20px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav-link {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.custom-logo {
+    max-height: 40px;
+}
+
+/* Gallery Grid CSS */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows:minmax(100px,auto);
+    gap: .15rem;
+    overflow-x: hidden;
+    padding: 20px;
+    
+}
+
+.photo-container {
+    width: 100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo-details {
+    /* display: none; */
+
+}
+
+
+
+.photo-container:nth-child(1) {
+    background-image: url(/img/bristlecone-1.jpg);
+}
+.photo-container:nth-child(2) {
+    background-image: url(/img/bristlecone-2.jpg);
+}
+.photo-container:nth-child(3) {
+    background-image: url(/img/bristlecone-3.jpg);
+}
+.photo-container:nth-child(4) {
+    background-image: url(/img/glamis-1.jpg);
+}
+.photo-container:nth-child(5) {
+    background-image: url(/img/glamis-2.jpg);
+}
+.photo-container:nth-child(6) {
+    background-image: url(/img/glamis-3.jpg);
+}
+.photo-container:nth-child(7) {
+    background-image: url(/img/pike-market-1.jpg);
+}
+.photo-container:nth-child(8) {
+    background-image: url(/img/pike-market-2.jpg);
+}
+.photo-container:nth-child(9) {
+    background-image: url(/img/poulsbo-1.jpg);
+}
+.photo-container:nth-child(10) {
+    background-image: url(/img/teton-1.jpg);
+}
+.photo-container:nth-child(11) {
+    background-image: url(/img/washington-state-1.jpg);
+}
+.photo-container:nth-child(12) {
+    background-image: url(/img/washington-state-2.jpg);
+}
+
+
+
+
+
+
+
+
+
+
