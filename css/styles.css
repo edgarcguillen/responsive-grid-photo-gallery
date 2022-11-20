@@ -112,6 +112,10 @@ div.photo-container:hover .caption {
     text-align: center;
 }
 
+footer {
+    padding: 10px 10px;
+}
+
 
 /* Gallery Grid CSS: mobile first approach */
 
@@ -120,7 +124,7 @@ div.photo-container:hover .caption {
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows:minmax(150px,auto);
     gap: 1rem;
-    margin: 0 20px;
+    margin: 0 10px;
     overflow-x: hidden;
     /* padding: 20px; */
     
@@ -171,7 +175,8 @@ div.photo-container:hover .caption {
         grid-template-columns: repeat(2,1fr);
         grid-auto-rows:minmax(100px, auto);
         gap: 1rem;
-        padding: 20px;
+        margin: 0 10px;
+        padding: 0 20px 0 20px;
     }
     .photo-container:nth-child(1) {
         background-image: url(/img/bristlecone-1.jpg);
@@ -195,6 +200,11 @@ div.photo-container:hover .caption {
         background-image: url(/img/washington-state-2.jpg);
         grid-area: 8/1/9/3;
     }
+
+    footer {
+        margin: 20px;
+    }
+
 }
 
 
